@@ -4577,7 +4577,7 @@ testimonilas------------------------------------------------*/
   background: #f1f1f1;
   transition: all 0.3s ease-in-out;
 }
-.testimonilas-text:after {
+/* .testimonilas-text:after {
   font-family: Font awesome\5 Pro;
   content: "\f10e";
   bottom: 20px;
@@ -4586,7 +4586,7 @@ testimonilas------------------------------------------------*/
   color: #ccc;
   opacity: 0.3;
   font-size: 24px;
-}
+} */
 .testimonilas-text h3 {
   font-weight: 600;
   float: left;
