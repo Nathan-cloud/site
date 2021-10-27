@@ -2828,7 +2828,7 @@ section {
   font-size: 9px;
   width: 60px;
   height: 60px;
-  background: #202020;
+  background: #403b6e;
   box-sizing: border-box;
   top: 0;
   right: 0;
@@ -2875,7 +2875,7 @@ section {
   height: 60px;
   line-height: 60px;
   font-size: 10px;
-  background: #202020;
+  background: #403b6e;
   color: #fff;
   cursor: pointer;
   z-index: 10;
@@ -3783,7 +3783,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: #313131;
+  background: #403b6e;
   z-index: 1;
 }
 .pr-list:after {
@@ -3863,7 +3863,7 @@ section {
   float: left;
   position: relative;
   width: 100%;
-  background: #2d2d32;
+  background: #403b6e;
 }
 .content-nav li {
   width: 50%;
@@ -5122,7 +5122,7 @@ services------------------------------------------------*/
   height: 80px;
   line-height: 80px;
   margin: -40px 0 0 -40px;
-  background: #2d2d32;
+  background: #403b6e;
   z-index: 20;
   left: 50%;
   top: 50%;
@@ -5458,7 +5458,7 @@ services------------------------------------------------*/
 }
 .blog-filters {
   z-index: 20;
-  background: #313131;
+  background: #403b6e;
   margin-bottom: 20px;
 }
 .blog-btn-filter {
@@ -5477,7 +5477,7 @@ services------------------------------------------------*/
   right: 0;
   width: 180px;
   padding: 15px 20px;
-  background: #393939;
+  background: #403b6e;
 }
 .blog-btn-filter ul li {
   float: left;
@@ -6156,7 +6156,7 @@ services------------------------------------------------*/
   }
   .fixed-column-wrap_bg:before {
     width: 90px;
-    background: #212121;
+    background: #403b6e;
   }
   .fwc-dec_top,
   .fwc-dec_right {
@@ -6519,7 +6519,7 @@ services------------------------------------------------*/
     bottom: 100%;
     top: auto;
     width: 350px;
-    background: #313131;
+    background: #403b6e;
     padding: 40px 40px 20px;
     margin: -40px 0 0 0;
     display: none;

@@ -1220,6 +1220,7 @@ function initPelzari() {
       "//www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63799.53130824205!2d30.0410088!3d-1.9656024!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca77d3fbca03d%3A0xe18a95d9c324bad3!2sSOLVEIT%20AFRICA!5e0!3m2!1sen!2srw!4v1635332582572!5m2!1sen!2srw"
     ).addTo(map);
     var greenIcon = L.icon({
+      iconUrl: "images/marker.png",
       iconSize: [40, 40],
       popupAnchor: [0, -26],
     });
