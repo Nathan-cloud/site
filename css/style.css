@@ -984,6 +984,7 @@ nav.nav-inner {
 ------footer------------------------------------------------------------ */
 .height-emulator {
   z-index: 1;
+  background: #403b6e;
 }
 .main-footer {
   position: fixed;
@@ -3837,7 +3838,7 @@ section {
 }
 .parallax-header {
   margin-bottom: 20px;
-  background: #35353a;
+  background: #403b6e;
   padding: 15px 30px;
   float: left;
   position: relative;
@@ -4107,7 +4108,7 @@ section {
   top: -1px;
   bottom: -1px;
   width: 70px;
-  background: #35353a;
+  background: #403b6e;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -4128,7 +4129,7 @@ section {
 }
 .accordion a.toggle.act-accordion {
   color: #fff;
-  background: #35353a;
+  background: #403b6e;
   border-color: transparent;
 }
 .accordion a.toggle.act-accordion span:before {
@@ -6061,6 +6062,7 @@ services------------------------------------------------*/
   }
   .footer-inner {
     padding: 70px 0 30px;
+    background-color: #403b6e;
   }
   .footer-header {
     padding-top: 20px;
@@ -6074,10 +6076,7 @@ services------------------------------------------------*/
   .fc_button {
     margin: 12px 0 30px;
   }
-  .footer-box,
-  .footer_text {
-    margin-top: 20px;
-  }
+
   .fet_pr-carousel_link {
     float: left;
     top: 5px;
