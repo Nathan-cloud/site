@@ -274,6 +274,32 @@
       <script   src="js/scripts.js"></script>
       <script src="js/mag.js"></script>
       <script src="js/select2.min.js"></script>
+      <script>
+        $('.popup-with-zoom-anim').magnificPopup({
+     type: 'inline',
+ 
+     fixedContentPos: false,
+     fixedBgPos: true,
+ 
+     overflowY: 'auto',
+ 
+     closeBtnInside: true,
+     preloader: false,
+ 
+     midClick: true,
+     removalDelay: 300,
+     mainClass: 'my-mfp-zoom-in',
+   });
+ 
+   $('.mfp-image').magnificPopup({
+     type: 'image',
+     closeOnContentClick: true,
+     mainClass: 'mfp-fade',
+     image: {
+       verticalFit: true,
+     },
+   });
+     </script>
     
    </body>
 </html>
