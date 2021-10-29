@@ -1,5 +1,5 @@
 @charset "utf-8"; /*====================================== [ -Main Stylesheet-
-Theme: used colors: 1.0 main colors:#403b6e #43baff Last change: 31/03/2021
+Theme: used colors: 1.0 main colors:#403b6e #43baff #f8f8f8 Last change: 31/03/2021
 ] /*-------------Fonts---------------------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Mukta+Vaani:200,300,400,500,600,700,800|Teko:400,500,600,700&amp;display=swap");
 /*-------------General Style---------------------------------------*/
@@ -16,8 +16,11 @@ body {
   height: 100%;
   text-align: center;
   color: #000;
-  background: #1f1f1f;
+  background: #fff;
   font-family: "Mukta Vaani", sans-serif;
+}
+a {
+  text-decoration: none;
 }
 @-o-viewport {
   width: device-width;
@@ -616,6 +619,7 @@ blockquote p {
   position: fixed;
   left: -600px;
   width: 600px;
+
   bottom: 0;
   top: 90px;
   background: #403b6e;
@@ -1711,14 +1715,7 @@ i { position: relative; z-index: 2; color: #fff; } */
   color: #000;
 } /*
 ------section------------------------------------------------------------ */
-section {
-  float: left;
-  width: 100%;
-  position: relative;
-  padding: 90px 0;
-  overflow: hidden;
-  background: #fff;
-}
+
 .s-top-pad {
   padding-top: 10px;
 }

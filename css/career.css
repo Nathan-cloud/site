@@ -1,6 +1,14 @@
+body {
+  background: #fff;
+}
+a {
+  text-decoration: none;
+}
+.btn.btn-info {
+  float: left;
+}
 /* Company Info */
 .company-info {
-  border-bottom: 1px solid #e0e0e0;
   padding-bottom: 33px;
   margin-bottom: 35px;
 }
@@ -37,7 +45,7 @@
 
 /* ---------------------------------- */
 /* Buttons
-          ------------------------------------- */
+        ------------------------------------- */
 a.send.gray.app-link.opened,
 .upload-btn,
 .send,
@@ -49,6 +57,7 @@ a.button {
   font-weight: 600;
   font-size: 14px;
   outline: none;
+  margin-bottom: 5em;
   overflow: hidden;
   position: relative;
   z-index: 10;
@@ -127,7 +136,7 @@ a.button.dark:hover {
 
 /* ---------------------------------- */
 /* Categories Page
-          ------------------------------------- */
+        ------------------------------------- */
 .categories-group {
   padding: 50px 0;
 }
@@ -152,7 +161,7 @@ a.button.dark:hover {
 }
 /* ------------------------------------------------------------------- */
 /* Magnific Popup
-          ---------------------------------------------------------------------- */
+        ---------------------------------------------------------------------- */
 
 .mfp-bg {
   top: 0;
@@ -677,13 +686,17 @@ img.mfp-img {
 
 /* ---------------------------------- */
 /* Job List Alternative
-          ------------------------------------- */
+        ------------------------------------- */
+.eleven {
+  margin-top: -90px;
+}
 .listings-container {
-  margin: 15px 0 40px 0;
+  margin: 200px 0 40px 0;
 }
 
 .listing {
   border-radius: 0;
+  background: #f8f8f8;
   display: flex;
   padding: 25px;
   border-left: 4px solid #eee;
@@ -792,6 +805,9 @@ img.mfp-img {
 }
 
 @media (max-width: 768px) {
+  .listings-container {
+    margin-top: 13em;
+  }
   .listing-type {
     position: relative;
     left: 0;
@@ -957,7 +973,7 @@ li .job-spotlight p {
 
 /* ---------------------------------- */
 /* Category Boxes
-          ------------------------------------- */
+        ------------------------------------- */
 .categories-boxes-container {
   width: calc(100% + 20px);
   left: -20px;
@@ -1073,7 +1089,7 @@ li .job-spotlight p {
 
 /* ---------------------------------- */
 /* Job Spotlight overview
-          ------------------------------------- */
+        ------------------------------------- */
 .job-overview,
 .job-spotlight {
   background-color: #fdfdfd;
@@ -1120,7 +1136,7 @@ li .job-spotlight p {
 
 /*----------------------------------- */
 /* Search
-          ------------------------------------- */
+        ------------------------------------- */
 .list-search {
   margin: 5px 0 45px 0;
 }
@@ -1161,7 +1177,175 @@ li .job-spotlight p {
 
 /*----------------------------------- */
 /* Apply Popup
-          ------------------------------------- */
+        ------------------------------------- */
+.small-dialog-headline {
+  background-color: #fafafa;
+  padding: 25px 40px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.small-dialog-headline h2 {
+  font-size: 22px;
+}
+
+#small-dialog.apply-popup {
+  padding: 0;
+}
+
+.small-dialog-content {
+  padding: 40px;
+}
+.small-dialog-content input {
+  margin-bottom: 15px;
+}
+
+label.upload-btn input[type="file"] {
+  display: none;
+}
+
+.upload-btn {
+  float: left;
+  padding: 11px 18px;
+  margin-right: 18px;
+}
+
+.small-dialog-content textarea {
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 180px;
+}
+
+.upload-btn i {
+  margin-right: 2px;
+}
+.fake-input {
+  padding: 10px 18px;
+  margin-bottom: 17px;
+}
+.upload-info span {
+  float: right;
+}
+
+.upload-info {
+  margin: 20px 0 10px 0;
+}
+
+.small-dialog-content button.send {
+  width: 100%;
+  margin-top: 25px;
+  line-height: 24px;
+  border-radius: 3px;
+}
+
+.small-dialog-content .divider {
+  display: inline-block;
+  border-top: 1px solid #e0e0e0;
+  height: 1px;
+  width: 100%;
+}
+#titlebar {
+  background-color: #00000052;
+  position: relative;
+  padding: 70px;
+  margin-bottom: 50px;
+}
+#titlebar span a,
+#titlebar span {
+  font-size: 18px;
+  color: #fff;
+}
+
+/* ---------------------------------- */
+/* Job Spotlight overview
+        ------------------------------------- */
+.job-overview,
+.job-spotlight {
+  background-color: #fdfdfd;
+  border: 1px solid #e2e2e2;
+  padding: 35px 38px 31px 38px;
+}
+
+li .job-spotlight {
+  line-height: 27px;
+}
+
+.job-spotlight span {
+  color: #808080;
+}
+.job-spotlight p {
+  margin: 15px 0 0 0;
+}
+
+li .job-spotlight p {
+  line-height: 27px;
+}
+
+.job-spotlight a h4 {
+  line-height: 30px;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.job-spotlight a:hover h4 {
+  color: #666;
+}
+
+.job-overview a.button,
+.job-spotlight a.button {
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 20px 0 0 0;
+}
+
+/*----------------------------------- */
+/* Search
+                ------------------------------------- */
+.list-search {
+  margin: 5px 0 45px 0;
+}
+
+.list-search button {
+  background-color: #43baff;
+  cursor: pointer;
+  color: #fff;
+  float: right;
+  width: 56px;
+  height: 56px;
+  display: inline;
+  padding: 0;
+  font-size: 18px;
+  border: medium none;
+  position: relative;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.list-search button:hover {
+  background-color: #282828;
+}
+
+.list-search input {
+  font-size: 16px;
+  padding: 17px 22px;
+  width: 100%;
+  line-height: 20px;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  margin-top: -56px;
+}
+
+/*----------------------------------- */
+/* Apply Popup
+        ------------------------------------- */
 .small-dialog-headline {
   background-color: #fafafa;
   padding: 25px 40px;
