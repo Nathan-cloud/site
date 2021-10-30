@@ -120,7 +120,7 @@ a.button:hover,
 .submit-page .button.linkedin-btn:hover,
 input[type="button"]:hover,
 input[type="submit"]:hover {
-  background-color: #282828;
+  background-color: #403b6e;
 }
 
 .upload-btn:hover,
@@ -324,7 +324,7 @@ button.mfp-arrow {
   right: 0;
   cursor: pointer !important;
   z-index: 9999;
-  background: #282828;
+  background: #403b6e;
   color: #fff;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -1161,7 +1161,7 @@ li .job-spotlight p {
 }
 
 .list-search button:hover {
-  background-color: #282828;
+  background-color: #403b6e;
 }
 
 .list-search input {
@@ -1329,7 +1329,7 @@ li .job-spotlight p {
 }
 
 .list-search button:hover {
-  background-color: #282828;
+  background-color: #403b6e;
 }
 
 .list-search input {
