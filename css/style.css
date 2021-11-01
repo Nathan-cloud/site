@@ -943,9 +943,9 @@ nav.nav-inner {
   transition: all 100ms linear;
 } /*
 ------button------------------------------------------------------------ */
-/* .btn {
+.btn {
   padding: 14px 60px 14px 40px;
-  background:  #43baff;
+  background: #43baff;
   margin-top: 20px;
   color: #fff;
   font-weight: 600;
@@ -956,8 +956,8 @@ nav.nav-inner {
   overflow: hidden;
 }
 .btn:before {
-  font-family: Font awesome\5 Pro;
-  content: '\f105';
+  /* font-family: Font awesome\5 Pro;
+  content: "\f105"; */
   position: absolute;
   right: 0;
   top: 16px;
@@ -972,7 +972,7 @@ nav.nav-inner {
 }
 .btn:hover {
   background: #403b6e;
-} */
+}
 .float-btn {
   float: left;
   margin-top: 10px;
