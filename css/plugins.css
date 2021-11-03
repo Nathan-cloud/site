@@ -912,12 +912,12 @@ canvas {
 .pull-left {
   float: left !important;
 }
-.hide {
+/* .hide {
   display: none !important;
 }
 .show {
   display: block !important;
-}
+} */
 .invisible {
   visibility: hidden;
 }

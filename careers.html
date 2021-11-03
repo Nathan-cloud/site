@@ -18,7 +18,9 @@
     <link type="text/css" rel="stylesheet" href="css/color.css" />
     <link rel="shortcut icon" href="images/favicon.png" />
     <link rel="stylesheet" href="css/select2.min.css" />
+    <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/accordio.css" />
     <!--=============== favicons ===============-->
     <link rel="shortcut icon" href="images/favicon.png" />
   </head>
@@ -360,118 +362,231 @@
                             </aside>
                           
                         </div>
-                          <div class="eleven columns">
-                            <h3 id="margin-bottom-jobs">Recent Jobs</h3>
-                            <div class="padding-right">
-                             
-                              <div class="listings-container">
-                                <!-- Listing -->
-                                <a href="job-page.html" class="listing full-time">
-                                  <div class="listing-title">
-                                    <h4>
-                                        Loream ipsum - Loream ipsum
-                                      <span class="listing-type">Full-Time</span>
-                                    </h4>
-                                    <ul class="listing-icons">
-                                      <li><i class="ln ln-icon-Management"></i> SOLVIT AFRICA</li>
-                                      <li>
-                                        <i class="ln ln-icon-Map2"></i> 7th dummy, address 1909
-                                      </li>
-                                      <li>
-                                        <i class="ln ln-icon-Money-2"></i> $5000 - $7000
-                                      </li>
-                                      <li><div class="listing-date new">Dummy</div></li>
-                                    </ul>
+
+                       <!-- New jobs opening -->
+                       <div class="container mb-5">
+                        <div class="row">
+                          <div class="col-lg-4">
+                            <div class="accordion show active" id="accordion-tab-1">
+                              <div class="card">
+                                <div class="card-header" id="accordion-tab-1-heading-1">
+                                  <h5>
+                                    <button
+                                      class="btn btn-link"
+                                      type="button"
+                                      data-toggle="collapse"
+                                      data-target="#accordion-tab-1-content-1"
+                                      aria-expanded="false"
+                                      aria-controls="accordion-tab-1-content-1"
+                                    >
+                                      Location
+                                    </button>
+                                  </h5>
+                                </div>
+                                <div
+                                  class="collapse show "
+                                  id="accordion-tab-1-content-1"
+                                  aria-labelledby="accordion-tab-1-heading-1"
+                                  data-parent="#accordion-tab-1"
+                                >
+                                  <div class="card-body">
+                                    <div
+                                      class="nav nav-pills faq-nav"
+                                      id="faq-tabs"
+                                      role="tablist"
+                                      aria-orientation="vertical"
+                                    >
+                                    
+                                          <a
+                                            href="#tab4"
+                                            class="nav-link show active "
+                                            data-toggle="pill"
+                                            role="tab"
+                                            aria-controls="tab4"
+                                            aria-selected="false"
+                                          >
+                                            <i class="mdi mdi-heart"></i> Rwanda
+                                          </a>
+                                       
+                                          <a
+                                            href="#tab3"
+                                            class="nav-link"
+                                            data-toggle="pill"
+                                            role="tab"
+                                            aria-controls="tab3"
+                                            aria-selected="false"
+                                          >
+                                            <i class="mdi mdi-heart"></i> Polanda
+                                          </a>
+                                        
+                                          <a
+                                            href="#tab2"
+                                            class="nav-link"
+                                            data-toggle="pill"
+                                            role="tab"
+                                            aria-controls="tab2"
+                                            aria-selected="false"
+                                          >
+                                            <i class="mdi mdi-heart"></i> vietnam
+                                          </a>
+                                       
+                                    </div>
                                   </div>
-                                </a>
-            
-                                <!-- Listing -->
-                                <a href="job-page.html" class="listing part-time">
-                                  <div class="listing-title">
-                                    <h4>
-                                      Loream ipsum - Loream ipsum
-                                    <span class="listing-type">Full-Time</span>
-                                  </h4>
-                                  <ul class="listing-icons">
-                                    <li><i class="ln ln-icon-Management"></i> SOLVIT AFRICA</li>
-                                    <li>
-                                      <i class="ln ln-icon-Map2"></i> 7th dummy, address 1909
-                                    </li>
-                                    <li>
-                                      <i class="ln ln-icon-Money-2"></i> $5000 - $7000
-                                    </li>
-                                    <li><div class="listing-date new">Dummy</div></li>
-                                  </ul>
-                                  </div>
-                                </a>
-            
-                                <!-- Listing -->
-                                <a href="job-page.html" class="listing full-time">
-                                  <div class="listing-title">
-                                    <h4>
-                                      Loream ipsum - Loream ipsum
-                                    <span class="listing-type">Full-Time</span>
-                                  </h4>
-                                  <ul class="listing-icons">
-                                    <li><i class="ln ln-icon-Management"></i> SOLVIT AFRICA</li>
-                                    <li>
-                                      <i class="ln ln-icon-Map2"></i> 7th dummy, address 1909
-                                    </li>
-                                    <li>
-                                      <i class="ln ln-icon-Money-2"></i> $5000 - $7000
-                                    </li>
-                                    <li><div class="listing-date new">Dummy</div></li>
-                                  </ul>
-                                  </div>
-                                </a>
-                                
-                                <!-- Listing -->
-                                <a href="job-page.html" class="listing internship">
-                                  <div class="listing-title">
-                                    <h4>
-                                      Loream ipsum - Loream ipsum
-                                    <span class="listing-type">Full-Time</span>
-                                  </h4>
-                                  <ul class="listing-icons">
-                                    <li><i class="ln ln-icon-Management"></i> SOLVIT AFRICA</li>
-                                    <li>
-                                      <i class="ln ln-icon-Map2"></i> 7th dummy, address 1909
-                                    </li>
-                                    <li>
-                                      <i class="ln ln-icon-Money-2"></i> $5000 - $7000
-                                    </li>
-                                    <li><div class="listing-date new">Dunmy</div></li>
-                                  </ul>
-                                  </div>
-                                </a>
-            
-                                <!-- Listing -->
-                                <a href="job-page.html" class="listing freelance">
-                                  <div class="listing-title">
-                                    <h4>
-                                      Loream ipsum - Loream ipsum
-                                    <span class="listing-type">Full-Time</span>
-                                  </h4>
-                                  <ul class="listing-icons">
-                                    <li><i class="ln ln-icon-Management"></i> SOLVIT AFRICA</li>
-                                    <li>
-                                      <i class="ln ln-icon-Map2"></i> 7th dummy, address 1909
-                                    </li>
-                                    <li>
-                                      <i class="ln ln-icon-Money-2"></i> $5000 - $7000
-                                    </li>
-                                    <li><div class="listing-date new">Dummy</div></li>
-                                  </ul>
-                                  </div>
-                                </a>
+                                </div>
                               </div>
-            
-                              <a href="#" class="button centered mb-5"
-                                ><i class="fa fa-plus-circle"></i> Show More Jobs</a
-                              >
-                              <div class="margin-bottom-55"></div>
                             </div>
                           </div>
+                  
+                          <div class="col-lg-8">
+                            <div class="tab-content" id="faq-tab-content">
+                              <div
+                                class="tab-pane show active"
+                                id="tab4"
+                                role="tabpanel"
+                                aria-labelledby="tab4"
+                              >
+                                <div class="accordion" id="accordion-tab-4">
+                                  <div class="card">
+                                    <div class="card-header" id="accordion-tab-4-heading-2">
+                                      <h5>
+                                        <button
+                                          class="btn btn-link"
+                                          type="button"
+                                          data-toggle="collapse"
+                                          data-target="#accordion-tab-4-content-2"
+                                          aria-expanded="false"
+                                          aria-controls="accordion-tab-4-content-2"
+                                        >
+                                        Software Engineer in laravel
+                                        </button>
+                                      </h5>
+                                    </div>
+                                    <div
+                                      class="collapse"
+                                      id="accordion-tab-4-content-2"
+                                      aria-labelledby="accordion-tab-4-heading-2"
+                                      data-parent="#accordion-tab-4"
+                                    >
+                                      <div class="card-body">
+                                        <p>
+                                          I meant 'physically'. Look, perhaps you could let me
+                                          work for a little food? I could clean the floors or
+                                          paint a fence, or service you sexually? When the lights
+                                          go out, it's nobody's business what goes on between two
+                                          consenting adults.
+                                        </p>
+                                        <p>
+                                          <strong>Example: </strong>Nay, I respect and admire
+                                          Harold Zoid too much to beat him to death with his own
+                                          Oscar.
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                           
+                            <div
+                              class="tab-pane"
+                              id="tab2"
+                              role="tabpanel"
+                              aria-labelledby="tab2"
+                            >
+                              <div class="accordion" id="accordion-tab-2">
+                                <div class="card">
+                                  <div class="card-header" id="accordion-tab-2-heading-1">
+                                    <h5>
+                                      <button
+                                        class="btn btn-link"
+                                        type="button"
+                                        data-toggle="collapse"
+                                        data-target="#accordion-tab-2-content-1"
+                                        aria-expanded="false"
+                                        aria-controls="accordion-tab-2-content-1"
+                                      >
+                                      Software Engineer in Php
+                                      </button>
+                                    </h5>
+                                  </div>
+                                  <div
+                                    class="collapse"
+                                    id="accordion-tab-2-content-1"
+                                    aria-labelledby="accordion-tab-2-heading-1"
+                                    data-parent="#accordion-tab-2"
+                                  >
+                                    <div class="card-body">
+                                      <p>
+                                        Kif, I have mated with a woman. Inform the men. This is
+                                        the worst part. The calm before the battle. Bender, being
+                                        God isn't easy. If you do too much, people get dependent
+                                        on you, and if you do nothing, they lose hope. You have to
+                                        use a light touch. Like a safecracker, or a pickpocket.
+                                      </p>
+                                      <p>
+                                        <strong>Example: </strong>There's no part of that sentence
+                                        I didn't like! You, a bobsleder!? That I'd like to see!
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="tab-pane"
+                              id="tab3"
+                              role="tabpanel"
+                              aria-labelledby="tab3"
+                            >
+                              <div class="accordion" id="accordion-tab-3">
+                                <div class="card">
+                                  <div class="card-header" id="accordion-tab-3-heading-1">
+                                    <h5>
+                                      <button
+                                        class="btn btn-link"
+                                        type="button"
+                                        data-toggle="collapse"
+                                        data-target="#accordion-tab-3-content-1"
+                                        aria-expanded="false"
+                                        aria-controls="accordion-tab-3-content-1"
+                                      >
+                                      Software Engineer In Python Developer
+                                      </button>
+                                    </h5>
+                                  </div>
+                                  <div
+                                    class="collapse"
+                                    id="accordion-tab-3-content-1"
+                                    aria-labelledby="accordion-tab-3-heading-1"
+                                    data-parent="#accordion-tab-3"
+                                  >
+                                    <div class="card-body">
+                                      <p>
+                                        Look, last night was a mistake. We'll need to have a look
+                                        inside you with this camera. Good news, everyone! There's
+                                        a report on TV with some very bad news! You know, I was
+                                        God once. You lived before you met me?!
+                                      </p>
+                                      <p>
+                                        <strong>Example: </strong>I'm Santa Claus! Pansy. That's a
+                                        popular name today. Little "e", big "B"?
+                                      </p>
+                                      <a
+                                      href="#small-dialog"
+                                      data-toggle="#small-dialog"
+                                      class="popup-with-zoom-anim button"
+                                      >Apply For This Job</a
+                                    >
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                   </div>
+
+                      
                           </div>
                           </div>
                        
@@ -480,6 +595,56 @@
                     </div>
                   </div>
                 <!--section end-->
+                <div
+                id="small-dialog"
+                class="zoom-anim-dialog mfp-hide apply-popup"
+              >
+                <div class="small-dialog-headline">
+                  <h2>Apply For This Job</h2>
+                </div>
+
+                <div class="small-dialog-content">
+                  <form action="#" method="get">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <input
+                          type="text"
+                          placeholder="Full Name"
+                          class="enteremail"
+                          value=""
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <input
+                          type="text"
+                          placeholder="Email Address"
+                          class="enteremail"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                    <textarea
+                      class="enteremail"
+                      placeholder="Your message / cover letter sent to the employer"
+                    ></textarea>
+
+                    <!-- Upload CV -->
+                    <div class="upload-info">
+                      <strong>Upload your CV (optional)</strong>
+                      <span>Max. file size: 5MB</span>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <label class="upload-btn">
+                      <input type="file" multiple />
+                      <i class="fa fa-upload"></i> Browse
+                    </label>
+                    <span class="fake-input">No file selected</span>
+
+                    <button class="send">Send Application</button>
+                  </form>
+                </div>
+              </div>
               </div>
               <!--column-wrap-container end-->
             </div>
@@ -612,9 +777,36 @@
     <!--=============== scripts  ===============-->
     <script src="js/jquery.min.js"></script>
     <script src="js/plugins.js"></script>
-    <script src="js/bootstrap.min.js" ></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
-    
+    <script src="js/mag.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script>
+      $(".popup-with-zoom-anim").magnificPopup({
+        type: "inline",
+
+        fixedContentPos: false,
+        fixedBgPos: true,
+
+        overflowY: "auto",
+
+        closeBtnInside: true,
+        preloader: false,
+
+        midClick: true,
+        removalDelay: 300,
+        mainClass: "my-mfp-zoom-in",
+      });
+
+      $(".mfp-image").magnificPopup({
+        type: "image",
+        closeOnContentClick: true,
+        mainClass: "mfp-fade",
+        image: {
+          verticalFit: true,
+        },
+      });
+    </script>
 
     <script src="js/select2.min.js"></script>
     <script>
