@@ -40,9 +40,6 @@ input[type="color"]:focus,
 textarea:focus {
   color: #6d6d6d;
 }
-.container {
-  text-align: left;
-}
 
 textarea {
   width: 100%;
