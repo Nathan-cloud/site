@@ -2,6 +2,18 @@
 
 .container-form {
   background-color: #403b6e;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .progress-step::after {
+    width: 30%;
+  }
+}
+@media (max-width: 1050px) {
+  .container-form {
+    top: -60px;
+  }
 }
 .content-holder {
   background-color: #403b6e;
@@ -12,7 +24,10 @@ label {
   font-family: "Poppins", sans-serif;
   float: left;
 }
-
+form h1 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 input,
 select {
   display: block;
@@ -104,10 +119,12 @@ textarea {
 /* Progressbar */
 .progressbar {
   position: relative;
+  left: 2px;
   display: flex;
   justify-content: space-between;
   counter-reset: step;
   margin: 2rem 0 4rem;
+  width: 95%;
 }
 
 .progress {
@@ -149,9 +166,9 @@ textarea {
   position: absolute;
   top: calc(100% + 0.5rem);
   font-size: 0.85rem;
+  width: 50%;
   color: #666;
 }
-
 .progress-step-active {
   background-color: #43baff;
   color: #f3f3f3;
@@ -159,7 +176,7 @@ textarea {
 
 /* Form */
 .form {
-  width: clamp(320px, 30%, 430px);
+  width: clamp(320px, 90%, 531px);
   margin: 0 auto;
   position: relative;
   top: 150px;
